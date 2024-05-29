@@ -2,7 +2,7 @@
 function createPromise(promiseNumber) {
  return new Promise((resolve) => {
    // Generate a random time between 1 and 3 seconds
-   const time = Math.floor(Math.random() * 3 + 1);
+   const time = Math.random() * 2 + 1;
    // Explanation:
    // - Math.random() generates a number between 0 and 1 (e.g., 0.675)
    // - Multiplying by 2 scales it to a range of 0 to 2 (e.g., 0.675 * 2 = 1.35)
